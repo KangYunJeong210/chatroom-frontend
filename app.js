@@ -2,7 +2,7 @@
 const FRIENDS = ["민지", "준호", "서연", "태오"];
 
 // 🔥 여기만 네 Vercel 주소로 바꾸면 됨
-const API_URL = "https://YOUR-VERCEL-PROJECT.vercel.app/api/chat";
+https://chatroom-backend-nu.vercel.app/api/chat
 
 const STORAGE_KEY = "chatroom_messages_v1";
 const SUMMARY_KEY = "chatroom_summary_v1";
@@ -274,3 +274,4 @@ window.resetChat = function () {
   summary = "";
   renderAll(messages);
 };
+
