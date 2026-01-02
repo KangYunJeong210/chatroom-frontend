@@ -1,5 +1,5 @@
 // ====== 설정 ======
-const FRIENDS = ["민지", "준호", "서연", "태오"];
+const FRIENDS = ["Aiden", "Lucas", "Maya", "Theo"];
 
 // 🔥 여기만 네 Vercel 주소로 바꾸면 됨
 const API_URL = "https://chatroom-backend-nu.vercel.app/api/chat";
@@ -10,12 +10,11 @@ const SUMMARY_KEY = "chatroom_summary_v1";
 // (선택) 프사 사용하면 여기 매핑
 const AVATARS = {
   me: "avatars/me.png",
-  "민지": "avatars/minji.png",
-  "준호": "avatars/junho.png",
-  "서연": "avatars/seoyeon.png",
-  "태오": "avatars/taeo.png"
+  Aiden: "avatars/aiden.png",
+  Lucas: "avatars/lucas.png",
+  Maya: "avatars/maya.png",
+  Theo: "avatars/theo.png",
 };
-
 const chatEl = document.getElementById("chat");
 const inputEl = document.getElementById("chatInput");
 const sendBtn = document.getElementById("sendBtn");
@@ -274,5 +273,6 @@ window.resetChat = function () {
   summary = "";
   renderAll(messages);
 };
+
 
 
