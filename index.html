@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>단톡방</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="app">
+
+    <!-- 상단바 -->
+    <header class="top-bar">
+        <span class="back">‹</span>
+        <div class="room-info">
+            <h1>우리</h1>
+            <p>민지, 준호, 서연, 태오</p>
+        </div>
+        <span class="menu">☰</span>
+    </header>
+
+    <!-- 채팅 영역 -->
+    <main id="chat">
+        <!-- 메시지들은 JS에서 여기에 추가됨 -->
+        <div class="system-msg">대화를 시작해 보세요</div>
+    </main>
+
+    <!-- 입력 영역 -->
+    <footer class="input-bar">
+        <input id="chatInput" type="text" placeholder="메시지 입력" />
+        <button id="sendBtn">전송</button>
+    </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
